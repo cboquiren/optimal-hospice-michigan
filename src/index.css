@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.embla {
+  --slide-spacing: 2rem;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  padding-left: calc(var(--slide-spacing) * -1);
+}
+
+.embla__slide {
+  flex: 0 0 40%;
+  min-width: 0;
+  margin-left: var(--slide-spacing);
+}
+
+@media (min-width: 768px) {
+  .embla {
+    --slide-spacing: 4rem;
+  }
+
+  .embla__slide {
+    flex: 0 0 20%;
+  }
+}
