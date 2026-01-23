@@ -1,4 +1,5 @@
 import { Phone } from "lucide-react";
+import Logo from "../assets/Logo.jpg";
 
 const Navbar = () => {
   return (
@@ -6,7 +7,7 @@ const Navbar = () => {
       <div className="mx-auto max-w-6xl p-4">
         <div className="flex items-center justify-between">
           <img
-            src="src\assets\Optimal Logo.bmp"
+            src={Logo}
             alt="Optimal Hospice Michigan Logo"
             className="object-cover rounded-lg max-h-20 max-w-20 "
           />
