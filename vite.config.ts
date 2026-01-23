@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/optimal-hospice-michigan",
+  base: "/",
 });
