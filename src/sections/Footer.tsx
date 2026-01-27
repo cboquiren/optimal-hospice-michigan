@@ -17,7 +17,7 @@ const Footer = () => {
           </p>
           <p>
             <strong>Email:</strong>{" "}
-            <a href="mailto:optimalhospiceoffice@gmail.com">optimalhospiceoffice@gmail.com</a>
+            <a href="mailto:office@optimalhospicemi.com">office@optimalhospicemi.com</a>
           </p>
           <p className="mt-4">Available 24 hours a day, 7 days a week</p>
         </div>

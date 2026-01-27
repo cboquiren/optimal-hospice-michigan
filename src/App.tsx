@@ -10,7 +10,7 @@ import Services from "./sections/Services";
 
 const App = () => {
   return (
-    <div data-theme="myTheme" className="min-h-screen bg-black">
+    <div data-theme="myTheme" className="min-h-screen bg-black font-sans">
       <Navbar />
       <Hero />
       <Badges />
