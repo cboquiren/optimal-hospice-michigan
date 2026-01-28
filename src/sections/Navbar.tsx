@@ -11,17 +11,20 @@ const Navbar = () => {
             alt="Optimal Hospice Michigan Logo"
             className="object-cover rounded-lg max-h-20 max-w-20 "
           />
-          <h1 className="text-2xl md:text-4xl text-white font-[Inter] font-bold tracking-wide text-center">
+          <h1 className="text-2xl md:text-4xl text-white font-[Inter] font-bold tracking-wide text-center shadow">
             Optimal Hospice of Michigan, Inc.
           </h1>
           <div className="flex items-center gap-4 md:hidden ">
-            <a href="tel:+1-734-237-6440" className="btn bg-accent text-base-100 hover:text-black">
+            <a
+              href="tel:+1-734-237-6440"
+              className="btn bg-accent text-base-100 hover:text-text-primary"
+            >
               <Phone className="size-5" />
               <span className="hidden md:block md:text-sm lg:text-lg">Contact Us </span>
             </a>
           </div>
           <div className="flex items-center gap-4 hidden md:flex">
-            <a href="#emailForm" className="btn bg-accent text-base-100 hover:text-black">
+            <a href="#emailForm" className="btn bg-accent text-base-100 hover:text-text-primary">
               <Mail className="size-5" />
               <span className="hidden md:block md:text-sm lg:text-lg">Contact Us</span>
             </a>

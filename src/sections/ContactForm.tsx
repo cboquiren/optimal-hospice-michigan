@@ -30,11 +30,11 @@ const ContactForm = () => {
   };
 
   return (
-    <div id="emailForm" className="py-10 sm:py-12 px-4 sm:px-6 bg-purple-100">
+    <div id="emailForm" className="py-10 sm:py-12 px-4 sm:px-6 bg-bg-med">
       <div className="max-w-5xl mx-auto ">
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-8 text-purple-900">Contact Us</h2>
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-8 text-primary">Contact Us</h2>
         <form
-          className="bg-accent max-w-4xl mx-auto py-8  rounded-xl text-lg"
+          className="bg-primary max-w-4xl mx-auto py-8  rounded-xl text-lg"
           onSubmit={(e) => {
             e.preventDefault();
             if (!isFormValid) {

@@ -8,7 +8,8 @@ export default {
       colors: {
         "bg-light": "#FBECFA",
         "bg-med": "#F7EEF7",
-        "bg-dark": "#E3A6E1",
+        "bg-dark": "#F3DAF2",
+        "text-primary": "#451E43",
       },
     },
   },
