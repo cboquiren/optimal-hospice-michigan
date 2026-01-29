@@ -26,7 +26,8 @@ const Hero = () => {
   // bg-[url(./assets/bg-1.jpg)]
   return (
     <div
-      className=" h-[75vh] bg-cover bg-center relative transition-all ease-in duration-4000"
+      id="top"
+      className=" h-[70vh] bg-cover bg-center relative transition-all ease-in duration-4000"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <div className="bg-purple-50/50 h-full w-full flex items-center justify-center">
@@ -34,11 +35,6 @@ const Hero = () => {
           <h1 className="text-2xl lg:text-5xl font-bold tracking-wide text-primary hero-text-shadow text-center">
             Comfort • Dignity • Quality of Life
           </h1>
-          <p className="text-md lg:text-xl/10 max-w-xs lg:max-w-3xl mx-auto text-text-primary font-semibold font-[Inter]">
-            Optimal Hospice of Michigan provides high-quality, compassionate, patient-centered
-            hospice care for individuals facing life-limiting illness—supporting patients and
-            families wherever they call home.
-          </p>
         </div>
       </div>
     </div>

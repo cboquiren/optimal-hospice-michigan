@@ -5,24 +5,24 @@ const Support = () => {
     <div className="py-16 sm:py-20 px-4 sm:px-6 bg-base-100">
       <div className="max-w-5xl mx-auto text-center flex flex-col-reverse md:grid md:gap-10 md:grid-cols-2 items-center">
         <div className="bg-base-200 rounded-2xl p-6 sm:p-10 flex-1 shadow-md">
-          <h4 className="text-accent text-md font-medium underline uppercase mb-4">
-            Compassionate Care & Meaningful Support - Wherever Life Happens
+          <h4 className="text-primary text-md font-bold underline uppercase mb-4">
+            Where We Provide Care
           </h4>
           <ol className="font-medium list-disc space-y-2 px-4">
             {careLocationsList.map((location) => {
-              return <li className="text-primary text-left ">{location}</li>;
+              return (
+                <li key={location} className="text-primary text-left ">
+                  {location}
+                </li>
+              );
             })}
           </ol>
         </div>
         <div className="flex-1 md:text-left mb-6 md:mb-0">
-          <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-primary ">
-            Our Support and Care
-          </h2>
-          <p className="sm:text-md text-text-primary leading-6">
-            Hospice care extends beyond the patient. We provide education, guidance, and emotional
-            support to caregivers throughout the hospice journey and offer ongoing bereavement
-            support following the loss of a loved one. Our services are designed to provide comfort,
-            guidance, and peace of mind where ever you are - both physically and emotionally.
+          <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Our Support and Care</h2>
+          <p className="sm:text-md  leading-6">
+            We provide education, guidance, and emotional support to caregivers throughout the
+            hospice journey and offer ongoing bereavement support following the loss of a loved one.
           </p>
         </div>
       </div>

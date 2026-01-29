@@ -41,6 +41,6 @@ export const teamList = [
   "Registered Nurses",
   "Hospice Aides",
   "Social Workers",
-  "Spiritual Car Counselors",
+  "Spiritual Care Counselors",
   "Trained Volunteers",
 ];

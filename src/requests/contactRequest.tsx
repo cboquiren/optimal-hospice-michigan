@@ -1,6 +1,6 @@
 import toast from "react-hot-toast";
 
-const email = "e6061ebf4823b34d721047b32334c086 ";
+const email = "office@optimalhospicemi.com";
 
 const contactRequest = (data: { name: string; email: string; message: string }) => {
   return fetch(`https://formsubmit.co/ajax/${email}`, {

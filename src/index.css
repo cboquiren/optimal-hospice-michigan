@@ -7,11 +7,11 @@ html {
 }
 
 .shadow {
-  text-shadow: 4px 4px 5px black;
+  text-shadow: 2px 4px 5px #c9a3c7;
 }
 
 .hero-text-shadow {
-  text-shadow: 2px 4px 4px #c9a3c7;
+  text-shadow: 4px 6px 7px #c9a3c7;
 }
 
 .embla {

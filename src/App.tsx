@@ -13,7 +13,7 @@ import Teams from "./sections/Teams";
 
 const App = () => {
   return (
-    <div data-theme="myTheme" className="min-h-screen bg-black font-sans">
+    <div data-theme="myTheme" className="min-h-screen bg-black font-sans text-primary">
       <Navbar />
       <Hero />
       <Badges />
