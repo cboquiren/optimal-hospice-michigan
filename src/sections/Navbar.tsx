@@ -3,7 +3,7 @@ import Logo from "../assets/Logo.jpg";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white border-b border-base-content/10 shadow sticky top-0">
+    <nav className="bg-white border-b border-base-content/10 shadow">
       <div className="mx-auto max-w-6xl p-4">
         <div className="flex items-center justify-between">
           <a href="#top">
