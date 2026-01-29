@@ -30,11 +30,13 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="py-16 sm:py-20 px-4 sm:px-6 bg-purple-100">
+    <div id="emailForm" className="py-10 sm:py-12 px-4 sm:px-6 bg-bg-med">
       <div className="max-w-5xl mx-auto ">
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-purple-900">Contact Us</h2>
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-8 text-primary text-center">
+          Contact Us
+        </h2>
         <form
-          className="bg-accent max-w-4xl mx-auto py-8  rounded-xl text-lg"
+          className="bg-primary max-w-4xl mx-auto py-8  rounded-xl text-lg"
           onSubmit={(e) => {
             e.preventDefault();
             if (!isFormValid) {
@@ -62,7 +64,7 @@ const ContactForm = () => {
               id="name"
               value={nameInput === null ? "" : nameInput}
               onChange={(e) => setNameInput(e.target.value)}
-              placeholder="Your Full Name"
+              placeholder="Your Name"
               className="input input-bordered w-full max-w-xs md:max-w-2xl mx-auto"
             />
           </div>
@@ -92,7 +94,7 @@ const ContactForm = () => {
               placeholder="Any Questions or Concerns?"
               className="textarea textarea-bordered h-36 w-full max-w-xs md:max-w-2xl mx-auto"
             />
-            <button type="submit" className="btn mx-auto mt-10">
+            <button type="submit" className="btn mx-auto mt-10 text-primary">
               <Mail />
               <span>Email Us</span>
             </button>
