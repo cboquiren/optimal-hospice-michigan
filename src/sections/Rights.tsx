@@ -2,7 +2,7 @@ import { patientRightsList } from "../utils/data";
 
 const Rights = () => {
   return (
-    <div className="py-16 sm:py-20 px-4 sm:px-6 bg-bg-dark">
+    <div className="py-16 sm:py-20 px-4 sm:px-6 ">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Patients Rights & Choices</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">

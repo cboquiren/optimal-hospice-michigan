@@ -36,7 +36,7 @@ const ContactForm = () => {
           Contact Us
         </h2>
         <form
-          className="bg-primary max-w-4xl mx-auto py-8  rounded-xl text-lg"
+          className="bg-primary max-w-4xl mx-auto py-4  rounded-xl text-lg"
           onSubmit={(e) => {
             e.preventDefault();
             if (!isFormValid) {

@@ -2,9 +2,9 @@ import { careLocationsList } from "../utils/data";
 
 const Support = () => {
   return (
-    <div className="py-16 sm:py-20 px-4 sm:px-6 bg-base-100">
+    <div className="py-16 sm:py-20 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto text-center flex flex-col-reverse md:grid md:gap-10 md:grid-cols-2 items-center">
-        <div className="bg-base-200 rounded-2xl p-6 sm:p-10 flex-1 shadow-md">
+        <div className="bg-bg-light rounded-2xl p-6 sm:p-10 flex-1 shadow-lg">
           <h4 className="text-primary text-md font-bold underline uppercase mb-4">
             Where We Provide Care
           </h4>

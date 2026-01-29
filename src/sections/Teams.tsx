@@ -2,7 +2,7 @@ import { teamList } from "../utils/data";
 
 const Teams = () => {
   return (
-    <div className="py-16 sm:py-20 px-4 sm:px-6 bg-bg-dark">
+    <div className="py-16 sm:py-20 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-2xl md:text-3xl font-semibold mb-6">Our Interdisciplinary Team</h2>
         <p>

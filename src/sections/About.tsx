@@ -1,8 +1,8 @@
 const About = () => {
   return (
-    <div className="py-16 sm:py-20 px-4 sm:px-6 bg-bg-dark">
+    <div className="py-16 sm:py-20 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto grid gap-10 md:grid-cols-2 items-center">
-        <div>
+        <div className="text-center md:text-left">
           <h2 className="text-2xl sm:text-3xl font-semibold mb-4 ">About Optimal Hospice</h2>
           <p className="leading-relaxed">
             Optimal Hospice of Michigan provides high-quality, patient-centered hospice care for
