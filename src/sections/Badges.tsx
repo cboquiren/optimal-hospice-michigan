@@ -8,7 +8,7 @@ const Badges = () => {
           return (
             <div
               key={badge}
-              className="p-6 rounded-2xl shadow-md border border-base-300 bg-base-200"
+              className="p-6 rounded-2xl shadow-md border border-base-300 bg-base-200 font-medium"
             >
               {badge}
             </div>

@@ -4,15 +4,19 @@ const Services = () => {
   return (
     <div className="py-16 sm:py-20 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-semibold text-primary">Our Services</h2>
-        <div className="bg-neutral text-base-100 font-medium rounded-lg p-6 m-2 shadow-md shadow-primary max-w-md mx-auto text-left">
+        <h2 className="text-3xl sm:text-4xl font-semibold text-primary">Our Services</h2>
+        <div className="bg-neutral text-base-100 rounded-lg p-6 m-2 shadow-md shadow-primary max-w-md mx-auto text-left">
           <ol className="list-disc space-y-4 px-12 py-4">
             {servicesList.map((service) => {
-              return <li key={service}>{service}</li>;
+              return (
+                <li key={service} className="font-medium">
+                  {service}
+                </li>
+              );
             })}
           </ol>
         </div>
-        <p className="mt-8 font-light">
+        <p className="mt-8 font-medium">
           All services are provided under a physician-directed plan of care and coordinated by an
           interdisciplinary team.
         </p>

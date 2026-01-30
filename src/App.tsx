@@ -43,7 +43,7 @@ const App = () => {
   return (
     <div
       data-theme="myTheme"
-      className="min-h-screen font-sans text-primary bg-cover bg-center bg-fixed w-full top-0 z-5 transition-all transition-discrete duration-5000 ease-in overflow-y-auto"
+      className="h-[100vh] font-sans text-primary bg-cover bg-fixed bg-center min-w-screen top-0 z-5 transition-all transition-discrete duration-5000 ease-in-out overflow-y-auto"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <div className="min-h-screen w-full bg-fixed bg-bg-light/50 relative">
