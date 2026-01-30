@@ -32,7 +32,7 @@ const ContactForm = () => {
   return (
     <div id="emailForm" className="py-10 sm:py-12 px-4 sm:px-6 bg-bg-med">
       <div className="max-w-5xl mx-auto ">
-        <h2 className="text-2xl sm:text-4xl font-semibold mb-8 text-primary text-center">
+        <h2 className="text-3xl sm:text-4xl font-semibold mb-8 text-primary text-center">
           Contact Us
         </h2>
         <form

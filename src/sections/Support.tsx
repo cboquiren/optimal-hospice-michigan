@@ -19,7 +19,7 @@ const Support = () => {
           </ol>
         </div>
         <div className="flex-1 md:text-left mb-6 md:mb-0">
-          <h2 className="text-2xl sm:text-4xl font-semibold mb-4">Our Support and Care</h2>
+          <h2 className="text-3xl sm:text-4xl font-semibold mb-4">Our Support and Care</h2>
           <p className="sm:text-md  leading-6 font-medium">
             We provide education, guidance, and emotional support to caregivers throughout the
             hospice journey and offer ongoing bereavement support following the loss of a loved one.
