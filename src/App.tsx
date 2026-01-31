@@ -17,14 +17,13 @@ import bg4 from "./assets/bg-4.jpg";
 import bg5 from "./assets/bg-5.jpg";
 import bg6 from "./assets/bg-6.jpg";
 import bg8 from "./assets/bg-8.jpg";
-import bg9 from "./assets/bg-9.jpg";
 import { useEffect, useState } from "react";
 
 const App = () => {
   const [bgImg, setBgImg] = useState(bg2);
 
   useEffect(() => {
-    const bgArray = [bg1, bg2, bg3, bg4, bg5, bg6, bg8, bg9];
+    const bgArray = [bg1, bg2, bg3, bg4, bg5, bg6, bg8];
     const bgRandomizer = () => {
       return Math.floor(Math.random() * bgArray.length);
     };
