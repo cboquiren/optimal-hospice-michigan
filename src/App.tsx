@@ -15,15 +15,13 @@ import bg2 from "./assets/bg-2.jpg";
 import bg3 from "./assets/bg-3.jpg";
 import bg4 from "./assets/bg-4.jpg";
 import bg5 from "./assets/bg-5.jpg";
-import bg6 from "./assets/bg-6.jpg";
-import bg8 from "./assets/bg-8.jpg";
 import { useEffect, useState } from "react";
 
 const App = () => {
-  const [bgImg, setBgImg] = useState(bg2);
+  const [bgImg, setBgImg] = useState(bg1);
 
   useEffect(() => {
-    const bgArray = [bg1, bg2, bg3, bg4, bg5, bg6, bg8];
+    const bgArray = [bg1, bg2, bg3, bg4, bg5];
     const bgRandomizer = () => {
       return Math.floor(Math.random() * bgArray.length);
     };
@@ -41,7 +39,7 @@ const App = () => {
       className="h-[100vh] font-sans text-primary bg-cover bg-fixed bg-center min-w-screen top-0 z-5 transition-all transition-discrete duration-5000 ease-in-out overflow-y-auto"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
-      <div className="min-h-screen w-full bg-fixed bg-bg-light/50 relative">
+      <div className="min-h-screen w-full bg-fixed bg-white/50 relative">
         <Navbar />
         <Hero />
         <Badges />
