@@ -25,14 +25,14 @@ export const patientRightsList = [
 ];
 
 export const servicesList = [
-  "Physician & Medical Oversight",
-  "Skilled Nursing & Symptom Management",
-  "Pain & Medication Management",
-  "Hospice Aide Personal Care",
-  "Social Work & Emotional Support",
-  "Spiritual Care Services",
+  "Physician and Medical Oversight",
+  "Skilled Nursing and Symptom Management",
+  "Pain and Medication Management",
+  "Hospice Aide Services for Personal Care",
+  "Social Work and Emotional Support",
+  "Spiritual Care Based on Patient Preferences",
   "Volunteer Support",
-  "Medications & Medical Equipment",
+  "Medications, Medical Supplies, and Durable Medical Equipment",
   "24/7 On-Call Clinical Support",
 ];
 
