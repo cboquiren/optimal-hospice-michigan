@@ -1,56 +1,25 @@
-import { useEffect } from "react";
-import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { servicesList } from "../utils/data";
 
 const Services = () => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "center" }, [Autoplay()]);
-
-  const goToPrev = () => emblaApi?.scrollPrev();
-  const goToNext = () => emblaApi?.scrollNext();
-
-  useEffect(() => {
-    if (!emblaApi) return;
-    emblaApi.plugins().autoplay?.play();
-  }, [emblaApi]);
-
   return (
-    <div className="embla py-16 sm:py-20 px-4 sm:px-6 bg-white">
-      <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-8 sm:mb-10 text-purple-900">
-          Our Hospice Services
-        </h2>
-        <div className="embla__viewport" ref={emblaRef}>
-          <div className="embla__container mb-8">
-            {[
-              "Physician & Medical Oversight",
-              "Skilled Nursing & Symptom Management",
-              "Pain & Medication Management",
-              "Hospice Aide Personal Care",
-              "Social Work & Emotional Support",
-              "Spiritual Care Services",
-              "Volunteer Support",
-              "Medications & Medical Equipment",
-              "24/7 On-Call Clinical Support",
-            ].map((service) => {
+    <div className="py-16 sm:py-20 px-4 sm:px-6">
+      <div className="max-w-5xl mx-auto text-center">
+        <h2 className="text-3xl sm:text-4xl font-semibold text-primary">Our Services</h2>
+        <div className="bg-neutral text-base-100 rounded-lg p-6 m-2 shadow-md shadow-primary max-w-md mx-auto text-left">
+          <ol className="list-disc space-y-4 px-12 py-4">
+            {servicesList.map((service) => {
               return (
-                <div
-                  key={service}
-                  className="embla__slide p-6 bg-purple-100 rounded-2xl shadow-sm "
-                >
+                <li key={service} className="font-medium">
                   {service}
-                </div>
+                </li>
               );
             })}
-          </div>
+          </ol>
         </div>
-
-        <button className="embla__prev btn mr-2 bg-accent" onClick={goToPrev}>
-          <ChevronLeft />
-        </button>
-        <button className="embla__next btn ml-2 bg-accent" onClick={goToNext}>
-          <ChevronRight />
-        </button>
+        <p className="mt-8 font-medium">
+          All services are provided under a physician-directed plan of care and coordinated by an
+          interdisciplinary team.
+        </p>
       </div>
     </div>
   );
